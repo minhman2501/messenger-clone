@@ -4,15 +4,19 @@
         "next/core-web-vitals",
         "prettier",
         "plugin:@typescript-eslint/recommended",
-        "plugin:@typescript-eslint/recommended-requiring-type-checking"
+        "plugin:@typescript-eslint/recommended-requiring-type-checking",
+        "plugin:tailwindcss/recommended"
     ],
     "parserOptions": {
         "sourceType": "module",
         "project": "./tsconfig.json"
     },
-    "plugins": ["prettier", "tailwindcss"],
+    "plugins": ["prettier", "tailwindcss", "@typescript-eslint"],
     "parser": "@typescript-eslint/parser",
     "rules": {
+        "@typescript-eslint/no-unused-vars": "error",
+        "@typescript-eslint/no-explicit-any": "error",
+        "prefer-const": "error",
         "prettier/prettier": [
             "warn",
             {
