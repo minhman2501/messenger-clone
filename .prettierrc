@@ -11,10 +11,6 @@
 	"trailingComma": "all",
 	"singleAttributePerLine": true,
 	"htmlWhitespaceSensitivity": "css",
-	"vueIndentScriptAndStyle": false,
-	"proseWrap": "preserve",
-	"insertPragma": false,
-	"requirePragma": false,
 	"useTabs": true,
 	"plugins": ["prettier-plugin-tailwindcss"]
 }
